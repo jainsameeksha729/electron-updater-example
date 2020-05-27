@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": {
@@ -32,13 +32,6 @@
       "target": [
         "zip",
         "dmg"
-      ]
-    },
-    "linux": {
-      "category": "your.app.category.type",
-      "target": [
-        "deb",
-        "snap"
       ]
     }
   }
