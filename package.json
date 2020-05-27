@@ -1,9 +1,10 @@
 {
   "name": "electron-updater-example",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
+  "email": "jainsameeksha729@gmail.com",
   "scripts": {
     "publish": "build -p always"
   },
@@ -27,6 +28,12 @@
       "target": [
         "zip",
         "dmg"
+      ]
+    },
+    "linux": {
+      "category": "your.app.category.type",
+      "target": [
+        "deb"
       ]
     }
   }
